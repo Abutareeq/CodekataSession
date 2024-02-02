@@ -1,0 +1,71 @@
+// console.log("my name is abu")
+// console.log("my dob is 14")
+// Concatenation -- joining two strings 
+// console.log('the book is good'+'its written by mark')
+// console.log(12+12+'hi')
+
+// var a = 34
+// var b = 'abu'
+// // console.log(ab) // output error
+// console.log(a+b)
+// // Task-->> creat variables that stores name, dob, dom and the output should be-- hi i am 'name' my birthday is on 'dob' 'dom'.
+// var name= 'tareeq'
+// var dob= 14
+// var dom= 'january'
+// console.log('hi i am '+name+' my birthday is on ' +dob+' '+dom)
+// output -- hi i am tareeq my birthday is on 14 january
+
+// logical operators--
+// Not-!--> work is toggle the boolean value if its true it become false if its false it become true.its a single value operator.Ex.
+// var a = true
+// var b = false
+// console.log(!b)//output will be true
+// And-&&--> its a binery operator, if we assume two var a and b then a&&b is said tobe true if both a and b values are true, otherwise its false if a is ture and b is false then it gives false, when a is false and b is true it gives false, it is necessery that both var contain same values
+// console.log(a&&b)// output is False
+// console.log(a&&!b)//output is true
+// console.log(!(b&&!a)) //output is true
+// OR- ||--> its binery operator, if a || b is said to be false if both a and b values are false, if a is true and b is false then i gives true. its opposite of && operator
+// console.log(a||b) //output is true 
+// console.log(!a||b) //output is False
+// console.log(!(!b||(!a&&!b||(b||a))))
+// If else statement
+// if(condition){
+//     \\if body
+// }
+// else{
+//     \\else body
+// }
+// Rahul has got a budget of 800
+// he buys gift a if he has money less then 500
+// gift b if money is more then or equal to 500
+// gift c if money is more then or equal to 1000
+// EX.--
+// var budget = 800
+// if (budget < 500){
+//     console.log('GIFT A')
+// }else{
+//     if (budget >= 500){      //we are using again if else inside if else function that term is called nested if.
+//         console.log('GIFT B')
+//     }else{
+//         console.log('GIFT C')
+//     }
+// }
+// output is GIFT B
+
+// ELSE IF statement-- when two or more then two conditions is accurs in our statement. so we use else if function in if else function. ex.
+// Rahul has got a budget of 800
+// he buys gift a if he has money less then 500
+// gift b if money is more then or equal to 500 and less then 1000
+// gift c if money is more then or equal to 1000
+
+// var budget = 800
+// if (budget < 500){
+//     console.log('GIFT A')
+// }
+// else if(budget >= 500 && budget < 1000){
+//         console.log('GIFT B')
+// }
+// else{
+//         console.log('GIFT C')
+// }
+// output is GIFT B
