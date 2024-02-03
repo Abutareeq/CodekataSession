@@ -95,3 +95,58 @@
 // console.log(arr.pop());
 // console.log(arr.pop());
 // console.log(arr.pop());
+
+// SHIFT & UNSHIFT METHODS
+// SORT METHODS
+// let arr = [10,20,30,40,50];
+// arr.sort(function(a,b){
+//     return b-a;
+// });
+// arr.sort(function(a,b){
+//     return a-b;
+// });
+// console.log(arr)  //output is 10, 20, 30, 40, 50
+
+// const name = [
+//     'tareeq',
+//     'muzammil',
+//     'faizan',
+//     ];
+// name.sort();
+
+// console.log(name)  //output is [ 'faizan', 'muzammil', 'tareeq' ]
+//-----------------------------------------------------------------------
+
+
+// LOOPS-- for loop. while loops, do while loops
+// WHILE LOOPS--
+// let a = 0
+// while(a!=10){
+//     console.log('hello world');
+//     a=a+1; //it is termition condition if we dont use it the code goes to infitive
+// }
+// output--
+// hello world
+// hello world
+// hello world
+// hello world
+// hello world
+// hello world
+// hello world
+// hello world
+// hello world
+// hello world
+
+// let a = 0;
+// while (a<100){
+//     console.log('hello world'+ (a+1));
+//     a=a+1;
+// }
+// output is -- hello world1......hello world100
+
+// let a = 0;
+// while (a<100){
+//     console.log('hello world'+ (a+1));
+//     a=a+10;
+// }
+// output is- hello world1,hello world11....hello world110
