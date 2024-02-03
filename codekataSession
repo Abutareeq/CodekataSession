@@ -69,3 +69,29 @@
 //         console.log('GIFT C')
 // }
 // output is GIFT B
+
+//  ""Boilerplate code means a piece of code which can be used over and over again""
+
+// ARRAY-- array is collection of elements in sequential order.
+// const arrName=[
+//     'abu',
+//     'tareeq',
+//     'shaikh',
+//     'faizan'
+//     ]
+    // console.log(arrName[1])
+    
+// let arrnumber = [10,20,30,40,50];
+// console.log(arrnumber.length); //output is 5
+// console.log(arrnumber[arrnumber.length-2])  //output is 40
+
+
+// let arr=[];
+// arr.push(10);
+// arr.push(20);
+// arr.push(30);
+// console.log(arr);
+
+// console.log(arr.pop());
+// console.log(arr.pop());
+// console.log(arr.pop());
