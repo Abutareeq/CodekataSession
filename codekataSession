@@ -179,3 +179,21 @@
 // }
 // while(counter<10);
 // output is - 0 1 2 3 4 5 6 7 8 9
+
+// FOR loop
+// for(let i=0;i<10;i++)
+// {
+//     console.log(i);
+// }
+// output is 0 1 2 3 4 5 6 7 8 9 
+
+//Find the sum of array-[1,2,3,4,5,6,7,8,9,10]
+// var arr=[1,2,3,4,5,6,7,8,9,10]
+// //calculate the sum of all the elements of the array-
+// var sum=0
+// //array length=last index+1
+// //last index=array length-1
+// for(var i=0;i<=arr.length-1;i++){        //the aim of i is to give a to end the firstend(point) and secondend
+//     sum = sum + arr[i]
+// }
+// console.log(sum)        //output is 55
