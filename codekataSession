@@ -150,3 +150,32 @@
 //     a=a+10;
 // }
 // output is- hello world1,hello world11....hello world110
+
+// let tableNo=17;
+// let counter =0;
+// while(counter<10){
+//     console.log(tableNo+' * '+(counter+1)+' = '+tableNo*(counter+1));
+//     counter++;  //(couner++)=(counter=counter+1)
+// }
+// output is-- 17 * 1 = 17
+//             17 * 2 = 34
+//             17 * 3 = 51
+//             17 * 4 = 68
+//             17 * 5 = 85
+//             17 * 6 = 102
+//             17 * 7 = 119
+//             17 * 8 = 136
+//             17 * 9 = 153
+//             17 * 10 = 170
+
+// the difference between while and do while loop is in while loop we check condition first and then execute
+
+// DO-WHILE LOOPS-- in this loop when the 'while' condition is setisfied then 'do' do somethis according to the given statement
+
+// let counter = 0
+// do{
+//     console.log(counter);
+//     counter=counter+1;
+// }
+// while(counter<10);
+// output is - 0 1 2 3 4 5 6 7 8 9
