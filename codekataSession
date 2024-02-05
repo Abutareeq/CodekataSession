@@ -220,3 +220,29 @@
 //     }
 // }
 // console.log(sum)        //output is 152
+
+// some inbuilt function in Javascript
+// var num = 2.445;
+// var numRounded = num.toFixed(1);
+// console.log(numRounded); //Output is 2.4
+// console.log(num.toFixed(2));
+
+// toString()--> this inbuilt function convert number into string but why do we need to convert? because we can access a perticuler number on the basis of positon
+// var num = 2.445;
+// var string = num.toString();
+// console.log(string);  //how we can prove that this is a string so for that we use another inbuilt function CharAt which is used for only  string and we can grab any character of string by index position.
+// console.log(string.charAt(1)); //Output is .
+
+// indexOf() is a inbuilt function which is used to find the index position of any character in string.
+// var string = 'Hello';
+// var index = string.indexOf('o');
+// console.log(index); //output is 4 
+
+// var numr = 3.1456;
+// var numb = numr.toString();
+// console.log(numb.charAt(4)); //output is 5
+
+// var str = 'hello hi';
+// console.log(str.indexOf('hel'));
+// console.log(str.indexOf(' ')); 
+//output is 0,5 --> 0 because it takes first indexOf
