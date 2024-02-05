@@ -197,3 +197,26 @@
 //     sum = sum + arr[i]
 // }
 // console.log(sum)        //output is 55
+
+// //another way
+// var arr=[1,2,3,4,5,6,7,8,9,10]
+// //calculate the sum of all the elements of the array-
+// var sum=0
+// //array length=last index+1
+// //last index=array length-1
+// for(var i=0;i<arr.length;i++){
+//     sum = sum + arr[i]
+// }
+// console.log(sum)        //output is 55
+
+// you are given an array-[14,12,45,0,1,5,126]
+// calculate the sum of only even numbers of the array
+// var arr = [14,12,45,0,1,5,126]
+// var sum = 0 // initially the sum is 0
+// for(var i=0;i<arr.length;i++){
+//     //module operator
+//     if (arr[i]%2==0){
+//         sum=sum+arr[i]      //sum=sum+arr[i] is equivalent to sum+=arr[i]
+//     }
+// }
+// console.log(sum)        //output is 152
