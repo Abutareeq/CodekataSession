@@ -329,3 +329,37 @@
 //         console.log('odd')
 //     }
 // //output --> zero
+
+//Write a code for find out a multiple of 6 and 7 within a range of 50 or find the numbers within a range of 50 which are divisible by 6 and 7.
+// var num = 50;
+// var a = 6;
+// var b = 7;
+// for ( i = 1; i <= num; i++ ){
+//     if ( i%a == 0 && i%b == 0 ){
+//         console.log(i);
+//     }
+// }  //Output --> 42
+
+// var num = 20;
+// var a = 2;
+// var b = 3;
+// for ( i = 1; i <= num; i++ ){
+//     if ( i%a == 0 && i%b == 0 ){
+//         console.log(i);
+//     }
+// }   //Output --> 6,12,18
+
+// // You are provided with a number "N", Find the Nth term of the series: 1, 4, 9, 16, 25, 36, 49, 64, 81, .......
+// // (Print "Error" if N = negative value and 0 if N = 0).
+// // Input Description:
+// // An integer N is provided to you as the input.
+// // Output Description:
+// // Find the Nth term in the provided series.
+// // Sample Input :18    Sample Output:324
+// let num = parseInt(18);
+// if ( num < 0 ){
+//     console.log('Error');
+//     return;
+// }else{
+//     console.log(num*num);
+// }   //Output --> 324
