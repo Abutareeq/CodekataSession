@@ -276,3 +276,25 @@
 // var b = 'UPPERCASE';
 // console.log(b.toLowerCase()); //uppercase
 // console.log(a.length); //9
+
+// var str = 'hello';
+// console.log(str.search('o'));//4 --> o is on 4th position of index
+
+// var st = 'this is a string.';
+// console.log(st.search('rin')); //12
+
+// just for knowledge purpose--> find out that in this given string ame is present or Not
+// var stg = 'This is me. My name is Tareeq';
+// if (stg.search('ame')==-1){
+//     console.log('Not present');
+// }else{
+//     console.log('present');
+// }
+// //Output is "present"
+
+// var x = 245.67;
+// var y = x.toString();
+// // console.log(y.search('45')); //1
+// if (y.search('45')==-1){console.log(777);
+// }else{console.log(888);
+// }           //Output is 888
